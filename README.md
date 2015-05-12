@@ -3,6 +3,7 @@
 [Tutorial LINK](http://unity3d.com/learn/tutorials/projects/2d-roguelike)
 
 --Doing--
+
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/boardmanager
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/gamemanager
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/movingobject
@@ -17,6 +18,7 @@ http://unity3d.com/learn/tutorials/projects/2d-roguelike/mobile
 
 
 --Done--
+
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/introduction
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/animations
 http://unity3d.com/learn/tutorials/projects/2d-roguelike/tileprefabs
