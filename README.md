@@ -1,8 +1,8 @@
 # 2D_Roguelike
 
-[Tutorial LINK](http://unity3d.com/learn/tutorials/projects/2d-roguelike)
+## [Tutorial LINK](http://unity3d.com/learn/tutorials/projects/2d-roguelike) ##
 
---Doing--
+## —Doing-- ##
 
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/boardmanager
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/gamemanager
@@ -17,7 +17,7 @@
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/mobile
 
 
---Done--
+## —Done-- ##
 
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/introduction
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/animations
