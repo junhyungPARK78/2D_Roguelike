@@ -4,7 +4,6 @@
 
 ## —Doing-- ##
 
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/introduction
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/animations
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/tileprefabs
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/boardmanager
@@ -22,3 +21,4 @@
 
 ## —Done-- ##
 
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/introduction
