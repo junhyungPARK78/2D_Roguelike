@@ -4,11 +4,7 @@
 
 ## —Doing-- ##
 
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/gamemanager
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/movingobject
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/wall-script
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-animator
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-script
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-script
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy-animator-gm
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/ui-levels
@@ -22,3 +18,7 @@
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/animations
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/tileprefabs
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/boardmanager
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/gamemanager
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/movingobject
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/wall-script
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-animator
