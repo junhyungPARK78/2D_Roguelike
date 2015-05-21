@@ -21,4 +21,5 @@
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/movingobject : 2015 05 21 16:17
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/wall-script : 2015 05 21 16:26
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-animator : 2015 05 21 16:38
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-script
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-script : 2015 05 21 16:50
+
