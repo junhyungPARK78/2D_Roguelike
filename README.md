@@ -21,4 +21,4 @@
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/wall-script : 2015 05 21 16:26
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-animator : 2015 05 21 16:38
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/player-script : 2015 05 21 16:50
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy : 2015 05 21 16:54
