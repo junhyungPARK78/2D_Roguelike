@@ -21,4 +21,4 @@
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy : 2015 05 21 16:54
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/enemy-animator-gm : 2015 05 22 17:57
 - http://unity3d.com/learn/tutorials/projects/2d-roguelike/ui-levels : 2015 05 22 19:38
-- http://unity3d.com/learn/tutorials/projects/2d-roguelike/audio
+- http://unity3d.com/learn/tutorials/projects/2d-roguelike/audio : 2015 05 22 20:07
