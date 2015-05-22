@@ -19,7 +19,7 @@ namespace Completed
 		{
 			//Register this enemy with our instance of GameManager by adding it to a list of Enemy objects. 
 			//This allows the GameManager to issue movement commands.
-//			GameManager.instance.AddEnemyToList (this);
+			GameManager.instance.AddEnemyToList (this);
 			
 			//Get and store a reference to the attached Animator component.
 			animator = GetComponent<Animator> ();
@@ -83,12 +83,13 @@ namespace Completed
 			//Declare hitPlayer and set it to equal the encountered component.
 			Player hitPlayer = component as Player;
 			
+			//Set the attack trigger of animator to trigger Enemy attack animation.
+			animator.SetTrigger ("enemyAttack");
+
 			//Call the LoseFood function of hitPlayer passing it playerDamage, the amount of foodpoints to be subtracted.
 			hitPlayer.LoseFood (playerDamage);
 			
-			//Set the attack trigger of animator to trigger Enemy attack animation.
-			animator.SetTrigger ("enemyAttack");
-			
+
 		}
 	}
 }
