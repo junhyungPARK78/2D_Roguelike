@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 namespace Completed
 {
@@ -10,7 +11,8 @@ namespace Completed
 		public int pointsPerFood = 10;              //Number of points to add to player food points when picking up a food object.
 		public int pointsPerSoda = 20;              //Number of points to add to player food points when picking up a soda object.
 		public int wallDamage = 1;                  //How much damage a player does to a wall when chopping it.
-		
+		public Text foodText;
+
 		
 		private Animator animator;                  //Used to store a reference to the Player's animator component.
 		private int food;                           //Used to store player food points total during level.
@@ -23,7 +25,9 @@ namespace Completed
 			animator = GetComponent<Animator>();
 			
 			//Get the current food point total stored in GameManager.instance between levels.
-//			food = GameManager.instance.playerFoodPoints;
+			food = GameManager.instance.playerFoodPoints;
+
+			foodText.text = "Food : " + food;
 			
 			//Call the Start function of the MovingObject base class.
 			base.Start ();
@@ -74,6 +78,8 @@ namespace Completed
 		{
 			//Every time player moves, subtract from food points total.
 			food--;
+
+			foodText.text = "Food : " + food;
 			
 			//Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
 			base.AttemptMove <T> (xDir, yDir);
@@ -128,6 +134,8 @@ namespace Completed
 			{
 				//Add pointsPerFood to the players current food total.
 				food += pointsPerFood;
+
+				foodText.text = "+" + pointsPerFood + " Food : " + food;
 				
 				//Disable the food object the player collided with.
 				other.gameObject.SetActive (false);
@@ -138,6 +146,8 @@ namespace Completed
 			{
 				//Add pointsPerSoda to players food points total
 				food += pointsPerSoda;
+
+				foodText.text = "+" + pointsPerSoda + " Food : " + food;
 				
 				
 				//Disable the soda object the player collided with.
@@ -163,6 +173,8 @@ namespace Completed
 			
 			//Subtract lost food points from the players total.
 			food -= loss;
+
+			foodText.text = "-" + loss + " Food : " + food;
 			
 			//Check to see if game has ended.
 			CheckIfGameOver ();
